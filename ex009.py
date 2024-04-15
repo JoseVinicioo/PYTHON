@@ -1,0 +1,33 @@
+n = int(input('Digite um número: '))
+nn1=1
+n1= n*1
+print('A tabuada no número {} é:\n{} x {} = {}' .format(n,n,nn1,n1))
+nn2=2
+n2= n*2
+print('{} x {} = {}' .format(n,nn2,n2))
+nn3=3
+n3= n*3
+print('{} x {} = {}' .format(n,nn3,n3))
+nn4=4
+n4= n*4
+print('{} x {} = {}' .format(n,nn4,n4))
+nn5=5
+n5= n*5
+print('{} x {} = {}' .format(n,nn5,n5))
+nn6=6
+n6= n*6
+print('{} x {} = {}' .format(n,nn6,n6))
+nn7=7
+n7= n*7
+print('{} x {} = {}' .format(n,nn7,n7))
+nn8=8
+n8= n*8
+print('{} x {} = {}' .format(n,nn8,n8))
+nn9=9
+n9= n*9
+print('{} x {} = {}' .format(n,nn9,n9))
+nn10=10
+n10= n*10
+print('{} x {} = {}' .format(n,nn10,n10))
+
+
