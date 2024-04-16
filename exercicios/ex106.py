@@ -1,5 +1,5 @@
 from time import sleep
-import sys
+import sys\
 
 def linhas(texto,cor):
     cont = len(texto)+4
@@ -11,7 +11,7 @@ def manual(prompt):
     while True:
         linhas('SISTEMA DE AJUDA PyHELP','\033[44m')
         sys.stdout.flush()
-        parada = input(prompt).upper()
+        parada = input(prompt).upper() 
         if parada in 'FIM':
             linhas('ATÉ LOGO', '\033[41m')
             break
