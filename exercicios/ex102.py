@@ -12,7 +12,6 @@ def fatorial(num=0,show=False):
         if show == True:
             print('{} '.format(c), end='')
             print('x ' if c > 1 else '= ', end='')
-    print(f)
-        
-help(fatorial)
-print(fatorial(5,True))
+    return f
+""" help(fatorial) """
+print(fatorial(5))
